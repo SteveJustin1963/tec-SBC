@@ -1,0 +1,50 @@
+A brief history of TEC-1 PCBs.
+
+
+The TEC-1 PCB has undegone several revisions over time. Although the designs are all very similar and, generally, software identical, there are some subtle differneces that may be of interest to collectors and the like.
+
+This list will serve to attempt to document the evolution of the design both at TE, and post-TE time.
+
+PCB's were generally made in batches of 100 at TE and typically changed colour each batch (but not always). Between the basic design revision and the colour, the age of the machine can thus be roughly dated. 
+
+No precise record was kept of manufacturing dates and boards were not serial-numbered, so this information is being 'reverse engineered' and is mainly educated guesswork on the part of TEC owners and former TE staff. It is not to be taken as absolute or 100% accurate.
+
+In short, the following major design revisions exist:
+
+
+TEC-1 (Issue 10, original). 7805 regulator above PCB bottom left corner. 8212 dispaly latch chips. no Shift key. MON-1 ROM.
+TEC-1A (Issue 12). Issue 12 page 14 states "The regulator is mounted under the PC board so that it cannot be bent over and broken off, the 2,200uf electrolytic has been changed to 1,000uf and the output latches have been changed to 74LS273 (or 74LS 374 or 74LS377). In all other respects, the boards are identical." At least some 1A's with above-PCB 7805 appear to exist.
+TEC-1B (Issue 13). Adds SHIFT key and MON-2.
+TEC-1C (After Issue 15, 1991). CAD version incldunig mods for JMON and MON1/2 select switch.
+TEC-1D Reproduction board by Ben grimmit, 2018.
+TEC-1E "Evolution" design by Ken Stone, 2020.
+
+
+
+Detailed overview follows:
+
+
+
+TEC-1 prototype. Bare fibreglass. No silk screen. Cut-out on top left corner.
+
+TEC-1 Batch 1. Red text white speaker on blue PCB. Issue 10 cover. Designed by Ken Stone and John Hardy. PCB Artwork by Ken Stone.
+TEC-1 Batch ?. White text blue speaker on blue PCB. Issue 11 cover.
+TEC-1 Batch ?. White text black speaker on green PCB.
+TEC-1 Batch ?. Blue text and white speaker silkscreen on Green PCB.
+
+TEC-1A prototype. Bare fibreglass. no silk screen  overlay. New disply latch validation design.
+Issue 12 page 13 claims that over 1000 TECs were sold by this point.
+TEC-1A Issue 12 page 13 shows a 1A model in a monochrome photo featuring the diagonal stripes across the top left corner and the Retex case and with 7805 mounted under PCB.
+
+TEC-1B Issue 13 introduces the TEC-1B. Monochrome photo on page 9. It now features the SHIFT key and MON-2. Red on green PCB with diagonal stripes. Ken stone and John Hardy names removed.
+TEC-1B Issue 14. No PCB mods but the idea of the MON 1/2 switch (mod by cutting a link on the PCB top side and adding a switch) was introduced here.
+TEC-1B Rev.1. 1989/90 PCB design mods by Craig Hart. Release just prior issue 15. Red on green PCB. Added labels to the memory and I/O port pins denoting the address range and port number. Returned Ken Stone and John Hardy's names to solder mask.
+I believe that a yellow on green 1B PCB exists but I can't locate photos just now.
+TEC-1B CAD Prototype designed by Craig Hart. Possibly a prototype but not made in production (as I recall -Craig).
+
+TEC-1C	1991 PCB designed by Craig Hart. White on green PCB. No stripe. TEC 1C annotation on solder mask side. Added some mods to incorporate JMON requirements (4k7 keyboard resistor) and coverted to Protel PCB CAD package. MON select switch. Mini PCB speaker. Previous PCBs were all done by hand with traditional tape and stencil on vellum.
+
+TEC-1D	2018 Reproduction board by Ben grimmit. White on green PCB. TEC 1D annotation on solder mask side. Revision information listed below the keyboard, componenet side. Made with Colin Mitchell's blessing.
+
+TEC-1E	2020 "Evolution" design by Ken Stone. Many new features. Currently at prototype stage. Not 100% TEC-1 compatible.
+
